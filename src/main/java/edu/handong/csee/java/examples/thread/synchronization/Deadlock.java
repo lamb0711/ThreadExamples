@@ -21,7 +21,8 @@ public class Deadlock {
 					this.name, bower.getName());
 		}
 	}
-
+//bow백에서동기화를지우면프로그램이 정상적으로 돌아간다.
+	
 	public static void main(String[] args) {
 		final Friend alphonse =
 				new Friend("Alphonse");
